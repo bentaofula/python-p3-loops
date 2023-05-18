@@ -22,7 +22,6 @@ function fizzbuzzPrinter() {
     console.log(fizzbuzz(num));
   }
 }
-
 function fizzbuzz(num) {
   if (num % 3 === 0 && num % 5 === 0) {
     return "FizzBuzz";
@@ -34,7 +33,6 @@ function fizzbuzz(num) {
     return num;
   }
 }
-
 /*
   Write a method `reverse_string` that takes one argument, a string, and reverses
   it. Don't use the built-in `.reverse` method. Instead, loop through the
